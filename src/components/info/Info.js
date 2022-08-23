@@ -6,8 +6,7 @@ const Info = () => {
     <div className="info-container">
       <div className="info">
         <h1>
-          Trata ammigos y enemigos bien por igual, esperar averiguar cual es
-          cual
+          Querer es poder, y aquel que nada quiere, nada puede obtener.
         </h1>
       </div>
     </div>

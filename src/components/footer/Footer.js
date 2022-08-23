@@ -4,15 +4,15 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-info">
-        <h1>Your Name</h1>
-        <p>Based in Your City</p>
+        <h1>Frank Jhonatan Chancafe Miramira</h1>
+        <p>Vivo en Lima - Perú</p>
       </div>
       <div className="footer-contact">
-        <h3>Contact me</h3>
-        <p>Contratame para cualquier trabajo</p>
+        <h3>Contáctame</h3>
+        <p>Comunicarse conmigo para cualquier trabajo</p>
       </div>
       <div className="footer-sns">
-        <div className="design-by">Design By Frank</div>
+        <div className="design-by">Realizado por Frank Jhonatan Chancafe Miramira</div>
         <div className="sns-links">
           <a href="https://linkedin.com" target="_blank" rel="noreferrer">
             <i className="fab fa-linkedin linkedin"></i>
