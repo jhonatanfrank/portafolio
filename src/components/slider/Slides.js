@@ -3,7 +3,8 @@ import "./Slider.css";
 
 const slidesInfo = [
   {
-    src: "https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_960_720.jpg",
+    href: "https://rick-and-morty-jhonatanfrank.vercel.app/",
+    src: "https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg",    
     alt: "Project 1",
     desc: "Project 1",
   },

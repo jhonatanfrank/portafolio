@@ -9,6 +9,7 @@ const Slider = () => {
     <div className="carousel-container">
       <div className="carousel-title">
         <h2>Mis Proyectos</h2>
+        <a href="https://rick-and-morty-jhonatanfrank.vercel.app/">Rick-and-Morty</a>
       </div>
       <Carousel
         arrows
