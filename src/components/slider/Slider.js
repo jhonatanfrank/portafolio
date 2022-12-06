@@ -32,6 +32,19 @@ const Slider = () => {
             </div>
           </div>
         </a>
+        <a target="_blank" href="https://mundial-qatar2022-jhonatanfrank.vercel.app/">
+          <div className='contenedor-item'>
+            <div className='contenedor-nombre'>
+              <h1 className='subtitulo-proyecto'>Mundial de Qatar 2022</h1>
+            </div>
+            <div className='contenedor-imagen'>
+              <img src={require("../slider/mundialqatar.jpg")} className="imagen" />
+            </div>
+            <div className='contenedor-descripcion'>
+              <p className='parrafo-proyecto'>Realiza tu propio pronostico del Mundial.</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   )
