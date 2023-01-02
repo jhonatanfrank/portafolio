@@ -45,6 +45,19 @@ const Slider = () => {
             </div>
           </div>
         </a>
+        <a target="_blank" href="https://openweather-jhonatanfrank.vercel.app/">
+          <div className='contenedor-item'>
+            <div className='contenedor-nombre'>
+              <h1 className='subtitulo-proyecto'>Prediccion del Clima</h1>
+            </div>
+            <div className='contenedor-imagen'>
+              <img src={require("../slider/clima.jpeg")} className="imagen" />
+            </div>
+            <div className='contenedor-descripcion'>
+              <p className='parrafo-proyecto'>Consumo de API de prediccion del clima.</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   )
