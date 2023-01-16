@@ -142,7 +142,7 @@ const Slider = () => {
             <p className='parrafo-proyecto'>Backend de un CRUD de Alquiler de Vehiculos. (Spring Boot)</p>
           </div>
           <div className='contenedor-links'>
-            <a href="https://github.com/jhonatanfrank/cajero-automatico-python.git" target="_blank" rel="noreferrer">
+            <a href="https://github.com/jhonatanfrank/alquiler-de-vehiculos.git" target="_blank" rel="noreferrer">
               <i className="fa-brands fa-github"></i>
             </a>
           </div>
