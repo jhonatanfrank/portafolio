@@ -6,58 +6,110 @@ const Slider = () => {
     <div className='contenedor-slider'>
       <h1 className='titulo-proyecto'>Proyectos:</h1>
       <div className='contenedor-principal'>
-        <a target="_blank" href="https://rick-and-morty-sand-seven.vercel.app/">
-          <div className='contenedor-item'>
-            <div className='contenedor-nombre'>
-              <h1 className='subtitulo-proyecto'>Rick and Morty</h1>
-            </div>
-            <div className='contenedor-imagen-proyecto'>
-              <img src={require("../slider/rickandmorty.jpg")} className="imagen" />
-            </div>
-            <div className='contenedor-descripcion'>
-              <p className='parrafo-proyecto'>Listado de los personajes de la serie.</p>
-            </div>
+
+
+
+        <div className='contenedor-item'>
+          <div className='contenedor-nombre'>
+            <h1 className='subtitulo-proyecto'>Rick and Morty</h1>
           </div>
-        </a>
-        <a target="_blank" href="https://pokemon-ruddy-ten.vercel.app/">
-          <div className='contenedor-item'>
-            <div className='contenedor-nombre'>
-              <h1 className='subtitulo-proyecto'>Pokemón</h1>
-            </div>
-            <div className='contenedor-imagen'>
-              <img src={require("../slider/pokemon.jpg")} className="imagen" />
-            </div>
-            <div className='contenedor-descripcion'>
-              <p className='parrafo-proyecto'>Listado de los personajes del anime.</p>
-            </div>
+          <div className='contenedor-imagen-proyecto'>
+            <img src={require("../slider/rickandmorty.jpg")} className="imagen" alt="img" />
           </div>
-        </a>
-        <a target="_blank" href="https://mundial-qatar2022-jhonatanfrank.vercel.app/">
-          <div className='contenedor-item'>
-            <div className='contenedor-nombre'>
-              <h1 className='subtitulo-proyecto'>Mundial de Qatar 2022</h1>
-            </div>
-            <div className='contenedor-imagen'>
-              <img src={require("../slider/mundialqatar.jpg")} className="imagen" />
-            </div>
-            <div className='contenedor-descripcion'>
-              <p className='parrafo-proyecto'>Realiza tu propio pronostico del Mundial.</p>
-            </div>
+          <div className='contenedor-descripcion'>
+            <p className='parrafo-proyecto'>Listado de los personajes de la serie.</p>
           </div>
-        </a>
-        <a target="_blank" href="https://openweather-jhonatanfrank.vercel.app/">
-          <div className='contenedor-item'>
-            <div className='contenedor-nombre'>
-              <h1 className='subtitulo-proyecto'>Prediccion del Clima</h1>
-            </div>
-            <div className='contenedor-imagen'>
-              <img src={require("../slider/clima.jpeg")} className="imagen" />
-            </div>
-            <div className='contenedor-descripcion'>
-              <p className='parrafo-proyecto'>Consumo de API de prediccion del clima.</p>
-            </div>
+          <div className='contenedor-links'>
+            <a href="https://github.com/jhonatanfrank/rick-and-morty.git" target="_blank" rel="noreferrer">
+              <i className="fa-brands fa-github"></i>
+            </a>
+            <a href="https://rick-and-morty-sand-seven.vercel.app/" target="_blank" rel="noreferrer">
+              <i className="fa-sharp fa-solid fa-eye"></i>
+            </a>
           </div>
-        </a>
+        </div>
+
+        <div className='contenedor-item'>
+          <div className='contenedor-nombre'>
+            <h1 className='subtitulo-proyecto'>Pokemón</h1>
+          </div>
+          <div className='contenedor-imagen'>
+            <img src={require("../slider/pokemon.jpg")} className="imagen" alt="img" />
+          </div>
+          <div className='contenedor-descripcion'>
+            <p className='parrafo-proyecto'>Listado de los personajes del anime.</p>
+          </div>
+
+          <div className='contenedor-links'>
+            <a href="https://github.com/jhonatanfrank/pokemon.git" target="_blank" rel="noreferrer">
+              <i className="fa-brands fa-github"></i>
+            </a>
+            <a href="https://pokemon-ruddy-ten.vercel.app/" target="_blank" rel="noreferrer">
+              <i className="fa-sharp fa-solid fa-eye"></i>
+            </a>
+          </div>
+        </div>
+
+        <div className='contenedor-item'>
+          <div className='contenedor-nombre'>
+            <h1 className='subtitulo-proyecto'>Mundial de Qatar 2022</h1>
+          </div>
+          <div className='contenedor-imagen'>
+            <img src={require("../slider/mundialqatar.jpg")} className="imagen" alt="img" />
+          </div>
+          <div className='contenedor-descripcion'>
+            <p className='parrafo-proyecto'>Realiza tu propio pronostico del Mundial.</p>
+          </div>
+
+          <div className='contenedor-links'>
+            <a href="https://github.com/jhonatanfrank/mundial-qatar2022.git" target="_blank" rel="noreferrer">
+              <i className="fa-brands fa-github"></i>
+            </a>
+            <a href="https://mundial-qatar2022-jhonatanfrank.vercel.app/" target="_blank" rel="noreferrer">
+              <i className="fa-sharp fa-solid fa-eye"></i>
+            </a>
+          </div>
+        </div>
+        <div className='contenedor-item'>
+          <div className='contenedor-nombre'>
+            <h1 className='subtitulo-proyecto'>Prediccion del Clima</h1>
+          </div>
+          <div className='contenedor-imagen'>
+            <img src={require("../slider/clima.jpeg")} className="imagen" alt="img" />
+          </div>
+          <div className='contenedor-descripcion'>
+            <p className='parrafo-proyecto'>Consumo de API de prediccion del clima.</p>
+          </div>
+
+          <div className='contenedor-links'>
+            <a href="https://github.com/jhonatanfrank/openweather.git" target="_blank" rel="noreferrer">
+              <i className="fa-brands fa-github"></i>
+            </a>
+            <a href="https://openweather-jhonatanfrank.vercel.app/" target="_blank" rel="noreferrer">
+              <i className="fa-sharp fa-solid fa-eye"></i>
+            </a>
+          </div>
+        </div>
+
+        <div className='contenedor-item'>
+          <div className='contenedor-nombre'>
+            <h1 className='subtitulo-proyecto'>Clientes</h1>
+          </div>
+          <div className='contenedor-imagen'>
+            <img src={require("../slider/usuarios.jpg")} className="imagen" alt="img" />
+          </div>
+          <div className='contenedor-descripcion'>
+            <p className='parrafo-proyecto'>Consumo de una API de 10 clientes.</p>
+          </div>
+          <div className='contenedor-links'>
+            <a href="https://github.com/jhonatanfrank/users-random.git" target="_blank" rel="noreferrer">
+              <i className="fa-brands fa-github"></i>
+            </a>
+            <a href="https://users-random-jhonatanfrank.vercel.app/" target="_blank" rel="noreferrer">
+              <i className="fa-sharp fa-solid fa-eye"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )

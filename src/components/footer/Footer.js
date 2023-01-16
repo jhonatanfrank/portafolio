@@ -16,14 +16,11 @@ const Footer = () => {
             </div>
             <div className="design-by">Realizado por: Frank Jhonatan</div>
             <div className="sns-links">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-                <i className="fab fa-linkedin linkedin"></i>
+              <a href="https://github.com/jhonatanfrank" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer">
-                <i className="fab fa-twitter linkedin"></i>
-              </a>
-              <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                <i className="fab fa-facebook facebook"></i>
+              <a href="https://www.linkedin.com/in/frank-jhonatan-chancafe-miramira-32aa67123/" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
               </a>
             </div>
           </div>

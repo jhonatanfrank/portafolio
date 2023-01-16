@@ -1,4 +1,4 @@
-.contenedor-slider{
+.contenedor-slider {
     background-color: #2a2a2a;
 }
 
@@ -29,6 +29,7 @@ a {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
+    margin: 0px;
 }
 
 .titulo-proyecto {
@@ -38,4 +39,11 @@ a {
 
 .imagen {
     width: 300px;
+}
+
+
+.contenedor-links {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 0 15px;
 }
