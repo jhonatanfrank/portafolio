@@ -110,6 +110,43 @@ const Slider = () => {
             </a>
           </div>
         </div>
+
+        <div className='contenedor-item'>
+          <div className='contenedor-nombre'>
+            <h1 className='subtitulo-proyecto'>Cajero Automatico</h1>
+          </div>
+          <div className='contenedor-imagen'>
+            <img src={require("../slider/cajeroautomatico.jpg")} className="imagen" alt="img" />
+          </div>
+          <div className='contenedor-descripcion'>
+            <p className='parrafo-proyecto'>Una simulacion básica de un cajero automatico realizado en lenguaje de programacion PYTHON. (Habilitar los permisos de descarga del navegador)</p>
+          </div>
+          <div className='contenedor-links'>
+            <a href="https://github.com/jhonatanfrank/cajero-automatico-python.git" target="_blank" rel="noreferrer">
+              <i className="fa-brands fa-github"></i>
+            </a>
+            <a href="./CajeroAutomatico.exe" target="_blank" rel="noreferrer">
+              <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
+        </div>
+
+        <div className='contenedor-item'>
+          <div className='contenedor-nombre'>
+            <h1 className='subtitulo-proyecto'>Alquiler de Vehiculos</h1>
+          </div>
+          <div className='contenedor-imagen'>
+            <img src={require("../slider/alquilerdevehiculos.jpg")} className="imagen" alt="img" />
+          </div>
+          <div className='contenedor-descripcion'>
+            <p className='parrafo-proyecto'>Backend de un CRUD de Alquiler de Vehiculos. (Spring Boot)</p>
+          </div>
+          <div className='contenedor-links'>
+            <a href="https://github.com/jhonatanfrank/cajero-automatico-python.git" target="_blank" rel="noreferrer">
+              <i className="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )
