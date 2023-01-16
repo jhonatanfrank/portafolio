@@ -102,10 +102,10 @@ const Slider = () => {
             <p className='parrafo-proyecto'>Consumo de una API de 10 clientes.</p>
           </div>
           <div className='contenedor-links'>
-            <a href="https://github.com/jhonatanfrank/users-random.git" target="_blank" rel="noreferrer">
+            <a href="https://github.com/jhonatanfrank/clients.git" target="_blank" rel="noreferrer">
               <i className="fa-brands fa-github"></i>
             </a>
-            <a href="https://users-random-jhonatanfrank.vercel.app/" target="_blank" rel="noreferrer">
+            <a href="https://clients-jhonatanfrank.vercel.app/" target="_blank" rel="noreferrer">
               <i className="fa-sharp fa-solid fa-eye"></i>
             </a>
           </div>
