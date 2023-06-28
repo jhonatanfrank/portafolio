@@ -33,7 +33,7 @@ const Slider = () => {
           </div>
           <div className="contenedor-links">
             <a
-              href="https://github.com/jhonatanfrank/backend-alquiler-vehiculos.git"
+              href="https://github.com/jhonatanfrank/alquiler-vehiculos.git"
               target="_blank"
               rel="noreferrer"
             >
@@ -75,14 +75,14 @@ const Slider = () => {
           </div>
           <div className="contenedor-links">
             <a
-              href="https://github.com/jhonatanfrank/backend-alquiler-vehiculos.git"
+              href="https://github.com/jhonatanfrank/alquiler-vehiculos-admin.git"
               target="_blank"
               rel="noreferrer"
             >
               <i className="fa-brands fa-github"></i>
             </a>
             <a
-              href="https://alquiler-vehiculos-jhonatanfrank.vercel.app/"
+              href="https://alquiler-vehiculos-admin-jhonatanfrank.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
